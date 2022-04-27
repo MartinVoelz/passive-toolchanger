@@ -13,8 +13,8 @@ All what I am publishing here is only "proof of concept" because I do not have a
 Starting point for this project were the tool_carrier and the tool_template from [jubilee](https://github.com/machineagency/jubilee) printer project by Joshua Vasquez of Machine Agency at the University of Washington.
 
 ## Variants
-### Magnet Wheel Toolchanger
-
+### Magnet wheel toolchanger
+The [magnet-wheel-toolchanger](magnet-wheel-toolchanger) uses a wheel with magnets, that is rotated by a cograil. The cograil holds the wings that fit into the tool-post. When inside the tool-post, the cograil is fixed left/right and the wheel can be rotated by moving the tool-plate. 
 
 ### Magnet Slider Toolchanger
 
