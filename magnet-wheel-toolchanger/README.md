@@ -1,5 +1,10 @@
 # magnet wheel toolchanger
 
+
+
+<img src="./pics/complete_assembly.PNG" alt="Complete assembly" width="500"/> 
+<img src="./pics/complete_assembly_2.PNG" alt="Complete assembly 2" width="700"/>
+
 ## References
 Starting point for this project were the tool_carrier and the tool_template from [jubilee](https://github.com/machineagency/jubilee) printer project by Joshua Vasquez of Machine Agency at the University of Washington.
 
@@ -7,16 +12,23 @@ Starting point for this project were the tool_carrier and the tool_template from
 The idea was to create a toolchanging mechnism that can be handled by x- and y- movement of the tool-carrier.
 The approach in this variant is to have three magnets in the carrier that are alligned in the same 120° star as the dovels and balls.
 
-In the toolcarrier is also a 120° star of three magnets on a wheel. When the magnets are alligned with the carrier, that magnets connect both parts.
+In the toolplate is also a 120° star of three magnets on a wheel. When the magnets are alligned with the carrier, that magnets connect both parts.
 When the wheel is rotated 60° or -60°, than there is no magnetic force between tool-carrier and tool-template.
+<img src="./pics/tool_template_in_lock_position.PNG" alt="tool plate in lock position" width="500"/>   tool plate in lock position
 
-The wheel is actuated by a cogwheel - cograil mechanism. When in docking position, the cograil-slider is fixed in left / right direction.
-When the carrier moves to left or right, the tool will move and the magnet-wheel will turn.
+<img src="./pics/tool_template_in_parking_position.PNG" alt="tool plate in parking position" width="500"/>   tool plate in parking position
+
+The wheel is actuated by a cogwheel - cograil mechanism. 
+When the carrier moves to left or right, the toolplate will be moved, the cograil-slider is fixed in the parking post and the magnet-wheel will turn.
+
+<img src="./pics/tool_template_mechanism_detail.PNG" alt="tool plate mechanism details" width="500"/>   tool plate mechanism details
 
 The cograil slider also has two magnets that are alligned with one of the magnet-wheel magnets in parking postition left or right. This ensures, that
 the tool will stay in this position when not used.
 
-## Changes
+<img src="./pics/tool_template_in_parking_position_magnet_allignment.PNG" alt="magnet allignment in parking position" width="500"/>   magnet allignment in parking position
+
+## Changes to jubilee design
 ### Carrier
 * Removed everything that was used for original turning lock and endswitches because I wanted to have a carrier without any wire
 (Of course the switches must be put to another position in real life)
